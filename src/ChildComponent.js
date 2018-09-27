@@ -16,7 +16,7 @@ const Child = ({ match, location }) => {
       <Col xs="auto"><h3>{searchParams.get('rank')}</h3></Col>
       </Row>
       <Row>
-      <Col xs="3">Rank chosen:</Col>
+      <Col xs="3">Gender chosen:</Col>
       <Col xs="auto"><h3>{searchParams.get('gender')}</h3></Col>
       </Row>
 

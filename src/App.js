@@ -46,10 +46,10 @@ class App extends Component {
         
         <Router>
         <div>
-          <h3>Choose the Profiles</h3>
+          <h3>Choose the Profile</h3>
 
-          <Dropdown size="lg"  style={{display: "inline"}} isOpen={this.state.dropdownOpen} toggle={this.toggle} >
-          <DropdownToggle caret>
+          <Dropdown size="lg"  color="warning" style={{display: "inline"}} isOpen={this.state.dropdownOpen} toggle={this.toggle} >
+          <DropdownToggle color="warning" caret>
             Profile
           </DropdownToggle>
           <DropdownMenu style={{width:"200px"}}>
